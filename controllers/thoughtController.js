@@ -59,10 +59,11 @@ module.exports = {
                 { $pull: { thoughts: req.params.thoughtId } },
                 { new: true }
                 )
-        })
+            })
         .then((userData) => {
             if(!userData) {
-                res.status(404).json( { message: "I'm sorry, I couldn't find this user please try again later!"} )
+                res.status(404).json( { message: "I'm sorry, I couldn't find this user please try again later!"} );
+                return;
             }
             res.json({ message: "Thought was deleted!"})
         })
