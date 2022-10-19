@@ -25,7 +25,7 @@ const reactionSchema = new Schema (
             get: createdAt => moment(createdAt).format("MMM DD, YYYY [at] hh:mm a")
         }
     }
-)
+);
 
 // thoughtSchema with text, date created, username, and reactions
 const thoughtSchema = new Schema(
@@ -53,7 +53,7 @@ const thoughtSchema = new Schema(
         },
         id: false,
       }
-)
+);
 
 // thoughtSchema virtual for reactionCount
 thoughtSchema.virtual('reactionCount').get(function () {
