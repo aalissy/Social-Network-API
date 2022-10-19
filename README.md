@@ -31,3 +31,6 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 
 ## Walkthrough Video for Deleting Thoughts
 [Untitled_ Oct 19, 2022 1_45 PM.webm](https://user-images.githubusercontent.com/32420245/196778453-f9c45404-7a0e-4d6f-a015-e0cbfc8de0af.webm)
+
+## Longer Walkthrough Video
+https://github.com/aalissy/Social-Network-API/blob/main/Untitled_%20Oct%2019%2C%202022%201_44%20PM%20(1).webm
